@@ -13,8 +13,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class AnalyticsSummaryResponse {
-	private BigDecimal totalCredit;
-	private BigDecimal totalDebit;
-	private BigDecimal netBalance;
+public class CategorySplitResponse {
+	private Long categoryId;
+	private String categoryName;
+	private BigDecimal splitPercentage;
 }
